@@ -1,4 +1,4 @@
-/* 全体 */
+/* ----------- 全体 ------------- */
 
 .wrapper {
   display: flex;
@@ -16,22 +16,55 @@
 }
 
 
+/* --------- サイドバー  -------------*/
 
-/* サイドバー */
-
-
+/* サイドバートップ */
 
 .side-top{
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.user-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-room a{
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 14px;
+
+}
+
+
+/* サイドバーボディ */
+
 
 .side-body {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
+
+
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
+
+.room-name{
+  padding: 20px 0 40px;
+}
+
 
 
 
